@@ -653,7 +653,7 @@ function Hero({ onCoursesClick, onRoadmapClick }) {
         </div>
 
         <h1 className="fadeUp-1 hero-title" style={{ fontFamily:"'Space Grotesk',sans-serif", fontWeight:800, fontSize:"4.2rem", lineHeight:1.08, letterSpacing:"-2px", marginBottom:22 }}>
-          BROTOTYPE
+          BROCAMP
         </h1>
 
         <p className="fadeUp-2" style={{ fontSize:"1.15rem", color:C.tSub, lineHeight:1.7, marginBottom:42, maxWidth:640, margin:"0 auto 42px" }}>
@@ -1127,7 +1127,7 @@ function Footer() {
               alt="Brototype Logo"
               style={{ height: "28px", display: "block", marginBottom: 16 }}
             />
-            <p style={{ fontSize:".83rem", color:C.tMuted, lineHeight:1.7, maxWidth:280 }}>BROTOTYPE. A 12-month software engineering program built for real placement outcomes.</p>
+            <p style={{ fontSize:".83rem", color:C.tMuted, lineHeight:1.7, maxWidth:280 }}>BROCAMP. A 12-month software engineering program built for real placement outcomes.</p>
           </div>
           <div style={{ minWidth:160 }}>
             <h5 style={{ fontFamily:"'Space Grotesk',sans-serif", fontWeight:700, fontSize:".82rem", marginBottom:14, color:C.tPrime, letterSpacing:".04em" }}>COURSES</h5>
