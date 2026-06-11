@@ -606,12 +606,11 @@ function Navbar({ onCoursesClick, onRoadmapClick }) {
     <nav style={nav}>
       <div style={{ maxWidth:1240, margin:"0 auto", display:"flex", alignItems:"center", justifyContent:"space-between", height:72 }}>
         {/* Logo */}
-        <div style={{ display:"flex", alignItems:"center", gap:10 }}>
-          <div style={{ background:C.white, padding:"5px 10px", borderRadius:4, display:"flex", alignItems:"center" }}>
-            <span style={{ fontFamily:"'Space Grotesk',sans-serif", fontWeight:800, fontSize:"1.05rem", color:"#000", letterSpacing:-.5 }}>BRO</span>
-          </div>
-          <span style={{ fontFamily:"'Space Grotesk',sans-serif", fontWeight:700, fontSize:"1.05rem", color:C.white, letterSpacing:-.3 }}>TOTYPE</span>
-        </div>
+        <img
+          src="https://website-main.blr1.cdn.digitaloceanspaces.com/marketing-landingpage-files/BrototypeLogos/brototype_without_tagline_white_log_svg.svg"
+          alt="Brototype Logo"
+          style={{ height: "32px", display: "block" }}
+        />
 
         {/* Desktop nav */}
         <div className="desktop-nav" style={{ display:"flex", alignItems:"center", gap:4 }}>
@@ -674,7 +673,7 @@ function Hero({ onCoursesClick, onRoadmapClick }) {
 
         {/* quick stats */}
         <div className="fadeUp-4" style={{ display:"flex", gap:36, justifyContent:"center", flexWrap:"wrap" }}>
-          {[["2,351+","Students Placed"],["4.7 LPA","Average CTC"],["35 LPA","Highest CTC"],["92%","Placement Rate"]].map(([n,l]) => (
+          {[["2,351+","Students Placed"],["4.7 LPA","Average CTC"],["35 LPA","Highest CTC"],["98%","Placement Rate"]].map(([n,l]) => (
             <div key={l} style={{ textAlign:"center" }}>
               <div style={{ fontFamily:"'Space Grotesk',sans-serif", fontWeight:800, fontSize:"1.6rem", color:C.gold, letterSpacing:"-1px" }}>{n}</div>
               <div style={{ fontSize:".75rem", color:C.tMuted, marginTop:3, fontWeight:500 }}>{l}</div>
@@ -710,7 +709,6 @@ function StatsSection() {
           <h2 style={{ fontFamily:"'Space Grotesk',sans-serif", fontWeight:800, fontSize:"2.6rem", marginTop:12, letterSpacing:"-1.5px" }}>
             Numbers that <span style={{ color:C.gold }}>speak for themselves</span>
           </h2>
-          <p style={{ color:C.tSub, marginTop:14, fontSize:"1rem" }}>FY 2024-25 placement data across all student backgrounds</p>
         </div>
 
         <div className="stats-strip" style={{ display:"grid", gridTemplateColumns:"repeat(4,1fr)", gap:20, marginBottom:40 }}>
@@ -1126,12 +1124,11 @@ function Footer() {
       <div style={{ maxWidth:1240, margin:"0 auto" }}>
         <div style={{ display:"flex", flexWrap:"wrap", gap:40, marginBottom:48 }}>
           <div style={{ minWidth:240, flex:1 }}>
-            <div style={{ display:"flex", alignItems:"center", gap:10, marginBottom:16 }}>
-              <div style={{ background:C.white, padding:"4px 8px", borderRadius:3 }}>
-                <span style={{ fontFamily:"'Space Grotesk',sans-serif", fontWeight:800, fontSize:".95rem", color:"#000" }}>BRO</span>
-              </div>
-              <span style={{ fontFamily:"'Space Grotesk',sans-serif", fontWeight:700, fontSize:".95rem", color:C.white }}>TOTYPE</span>
-            </div>
+            <img
+              src="https://website-main.blr1.cdn.digitaloceanspaces.com/marketing-landingpage-files/BrototypeLogos/brototype_without_tagline_white_log_svg.svg"
+              alt="Brototype Logo"
+              style={{ height: "28px", display: "block", marginBottom: 16 }}
+            />
             <p style={{ fontSize:".83rem", color:C.tMuted, lineHeight:1.7, maxWidth:280 }}>The Brother You Never Had. A 12-month software engineering program built for real placement outcomes.</p>
           </div>
           <div style={{ minWidth:160 }}>
