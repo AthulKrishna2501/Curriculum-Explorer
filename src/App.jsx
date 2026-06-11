@@ -408,7 +408,6 @@ export default function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="footer-inner">
-          <p className="footer-brand">Workfolio</p>
           <p className="footer-copy">© {new Date().getFullYear()} · Curriculum Explorer · All tracks include AI integration & placement training</p>
         </div>
       </footer>
